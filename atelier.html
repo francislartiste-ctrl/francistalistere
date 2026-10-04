@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>L'atelier — Comment j'ai écrit ce livre | Francis Talistère</title>
+<meta name="description" content="Comment Le Chemin des Alchimistes a été écrit : un auteur qui conçoit l'histoire, rédige ses brouillons et ses consignes, et une intelligence artificielle qui en développe la prose. Francis Talistère explique sa méthode d'auteur orchestrateur, brouillon à l'appui."/>
+<meta name="author" content="Francis Talistère"/>
+<meta name="robots" content="index, follow"/>
+<meta name="theme-color" content="#000000"/>
+<link rel="icon" href="assets/cover.jpg"/>
+<link rel="canonical" href="https://francistalistere.com/atelier.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://francistalistere.com/atelier.html"/>
+<meta property="og:title" content="L'atelier — Comment j'ai écrit ce livre | Francis Talistère"/>
+<meta property="og:description" content="Auteur orchestrateur : comment Le Chemin des Alchimistes a été écrit avec une intelligence artificielle, brouillon à l'appui."/>
+<meta property="og:image" content="https://francistalistere.com/og-image.jpg"/>
+<meta property="og:locale" content="fr_FR"/>
+<meta property="og:site_name" content="Le Chemin des Alchimistes"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<style>
+:root{--noir:#000;--surf:#0d0d0d;--bord:#222;--rouge:#E02020;--rougeh:#EE0000;--or:#D4AF37;--blanc:#fff;--gris:#bbb;--gris2:#8a8a8a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--noir);color:var(--blanc);font-family:Lato,system-ui,sans-serif;line-height:1.75;font-size:1.06rem}
+.filig{position:fixed;inset:0;background:url('assets/filigrane.jpg') center/520px no-repeat;opacity:.05;pointer-events:none;z-index:0}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px 64px;position:relative;z-index:1}
+.back{font-family:Montserrat,sans-serif;font-size:.85rem;color:var(--gris2);text-decoration:none}
+.back:hover{color:var(--blanc)}
+.kicker{margin:36px 0 6px;color:var(--rouge);font-family:Montserrat,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.82rem}
+h1{font-family:Montserrat,sans-serif;font-weight:900;font-size:clamp(1.8rem,5vw,2.4rem);line-height:1.15;margin:0 0 28px}
+h2{font-family:Montserrat,sans-serif;font-weight:700;font-size:1.25rem;margin:52px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--bord)}
+p{margin:0 0 18px;color:#e2e2e2}
+.lead{font-size:1.15rem;color:var(--blanc)}
+em{font-family:Georgia,serif}
+strong{color:var(--blanc)}
+.rule{width:64px;height:2px;background:var(--or);margin:0 0 28px;opacity:.8}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0 10px}
+.col{background:var(--surf);border:1px solid var(--bord);border-radius:6px;padding:18px 18px 8px}
+.col h3{margin:0 0 10px;font-family:Montserrat,sans-serif;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gris2);font-weight:700}
+.col.draft h3{color:var(--or)}
+.col p{font-size:.98rem;line-height:1.65}
+.col.draft p{font-family:Georgia,serif;color:#d8d0b8}
+.col .consigne{color:var(--or);font-style:italic}
+.caption{color:var(--gris);font-size:.95rem;margin-top:6px}
+.pull{border-left:2px solid var(--rouge);padding:4px 0 4px 18px;margin:26px 0;font-family:Georgia,serif;font-size:1.25rem;color:var(--blanc)}
+.todo{border:1px dashed var(--or);border-radius:6px;padding:18px;color:var(--or);background:rgba(212,175,55,.05)}
+.todo p{color:var(--or)}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:40px}
+.btn{display:inline-block;font-family:Montserrat,sans-serif;font-weight:700;text-decoration:none;padding:14px 26px;border-radius:4px;font-size:.95rem;transition:.15s}
+.btn-red{background:var(--rouge);color:#fff}.btn-red:hover{background:var(--rougeh);transform:translateY(-1px)}
+.btn-line{border:1px solid #444;color:var(--blanc)}.btn-line:hover{border-color:var(--blanc)}
+.foot{margin-top:56px;text-align:center;color:#555;font-size:.8rem;font-family:Montserrat,sans-serif}
+@media (max-width:640px){.compare{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="filig"></div>
+<main class="wrap">
+  <a class="back" href="index.html">‹ Retour au livre</a>
+
+  <p class="kicker">L'atelier</p>
+  <h1>Comment j'ai écrit ce livre</h1>
+  <div class="rule"></div>
+
+  <p class="lead">Ce livre a été écrit avec une intelligence artificielle. Je l'ai déclaré à Amazon au moment de le publier ; je vous le dis ici, avec mes mots.</p>
+  <p>Ce n'est pas une justification. C'est une explication de ma façon de travailler, parce que je crois qu'un lecteur a le droit de savoir comment est fait ce qu'il tient entre les mains.</p>
+
+  <h2>Ce qui vient de moi</h2>
+  <p>L'histoire, d'abord. Jean, Marie, Jacques, Nathan, frère Ambroise. Sainte-Paule et Oingt en 1312, l'ombre de l'Inquisition, la chute du Temple. L'architecture d'un chemin initiatique en sept tomes : chaque chapitre, chaque scène, l'ordre dans lequel elles arrivent et ce qu'elles doivent faire naître chez vous.</p>
+  <p>Les recherches, les choix, les coupes. Les pensées que je mets dans la bouche de mes personnages, et qui sont souvent les miennes. Les blasons, et les textes des chansons que vous ouvrez en les scannant.</p>
+
+  <h2>Ce que fait la machine</h2>
+  <p>J'écris les scènes, et la machine les développe. Puis je corrige : j'appuie sur une émotion, sur un détail, sur une idée que je veux voir développée. Je relis, je coupe, je rejette ce qui sonne faux, je recommence.</p>
+  <p>La part de chacun varie d'une page à l'autre. Certaines sont entièrement de ma main : la lettre de Jean au lecteur, par exemple, n'a pas été touchée. D'autres ont été largement développées par la machine, à partir de mes pages et sous ma direction.</p>
+  <p>La couverture a été générée avec Gemini et ChatGPT, puis retouchée.</p>
+
+  <h2>Pourquoi ce livre</h2>
+  <p>Vous l'aurez compris, ce roman est un récit d'apprentissage : celui d'une petite âme qui découvre le monde, sa matière, ses règles et ses violences, et qui apprend à y trouver sa place. À côté du chemin de Jean, il y a l'ombre d'un autre homme : un chemin plus tortueux, plus torturé. J'ai trouvé dans la période médiévale, époque de transformation, un cadre idéal, et un miroir de la nôtre. Aujourd'hui comme alors, dans un obscurantisme ambiant, les mêmes questions se posent. Qui détient la vérité ? Qu'est-ce que la réalité ? Comment vivre dans cette transformation ? Que reste-t-il de vrai ?</p>
+  <p class="pull">Peut-être sa vérité à soi.</p>
+
+  <h2>Plus qu'une histoire : les chansons</h2>
+  <p>Au fil des chapitres, des blasons à scanner ouvrent les chansons qui accompagnent le récit. C'est un concept : offrir au lecteur autre chose que seulement une histoire. Les chansons, elles aussi, parlent. Elles donnent une émotion, une joie, une tristesse, un poids, comme <em>Chevaucher au côté du chevalier noir de l'apocalypse</em>. <em>Les Bâtisseurs de cathédrales</em> est issu d'un poème écrit il y a quelques années. J'ai regroupé dans ce livre beaucoup de textes épars, écrits de-ci de-là.</p>
+  <p class="caption">Crédits des chansons : paroles, FrancislArtIste ; génération vocale, Suno ; musique et remasterisation, FrancislArtIste via RÉ·HUMA.</p>
+
+  <h2>Un exemple, sans maquillage</h2>
+  <p>Voici une scène qui me tient à cœur : Jean regarde sa mère éplucher des légumes. D'un côté, mon brouillon tel que je l'ai écrit, fautes comprises. De l'autre, ce que vous lirez dans le livre.</p>
+
+  <div class="compare">
+    <div class="col draft">
+      <h3>Mon brouillon</h3>
+      <p>« Jean était là dans la cuisine, il aimait être dans cette cuisine, ici sans rien dire avec elle il la regardait, éplucher des légumes. […] Jean aimait la douceur des gestes, la chaleur maternelle, cette quiétude que vous réconforte sans rien faire sans rien dire, juste être là. <span class="consigne">(Développer sur la sensation au niveau du ventre, le sentiment juvénile de la quiétude universelle)</span> »</p>
+    </div>
+    <div class="col">
+      <h3>Le livre</h3>
+      <p>« Sa mère, Marie, se tenait près de la table, occupée à éplucher des légumes avec la maîtrise tranquille des gestes répétés mille fois. Il ne disait rien, car il n'en avait pas besoin. Il aimait ces moments silencieux, précieux, où il pouvait simplement l'observer. […] Jean se sentait bercé par ce spectacle simple. Une sensation douce montait en lui, comme une chaleur diffuse et agréable qui s'installait au creux de son ventre. Cette quiétude universelle, il l'avait déjà connue lors des siestes d'enfance à l'ombre des arbres sous les lilas en fleurs… »</p>
+    </div>
+  </div>
+
+  <div class="compare">
+    <div class="col draft">
+      <h3>Mon brouillon</h3>
+      <p>« Cette maman lui avait fait comprendre un jour en épluchant des oignons que notre tête était comme les oignons, et que les parties de nous vivantes d'autrefois, était sous les couches que l'on construisait du nous nouveau. Que ces anciennes parties de nous ne mourraient pas mais vivaient bien au plus profond de nous. »</p>
+    </div>
+    <div class="col">
+      <h3>Le livre</h3>
+      <p>« Elle lui avait expliqué que l'âme humaine était bâtie exactement comme ce bulbe. Au fil des années, les chocs de l'existence, les apprentissages et les épreuves successives venaient superposer des couches épaisses sur l'être originel, formant la carapace d'un adulte. Mais les parties les plus profondes, celles de l'enfant naïf et fragile d'autrefois, ne mouraient jamais vraiment. »</p>
+    </div>
+  </div>
+  <p class="caption">Le silence de l'enfant, la quiétude au creux du ventre, l'image de l'oignon : c'est à moi. Les lilas aussi : nous en avions un dans notre jardin, et enfant, je m'endormais dessous. L'âtre et les poteries : c'est l'orchestre.</p>
+
+  <h2>Auteur orchestrateur</h2>
+  <p>J'ai commencé par écrire des poèmes en prose. Mes textes sont ensuite devenus des chansons, et c'est par la musique que je comprends le mieux ce travail. Un compositeur écrit les thèmes, l'architecture, les intentions. L'orchestrateur leur donne leur couleur et leur épaisseur. Dans ce livre, j'ai écrit la partition et je dirige l'orchestre, mais une partie de l'orchestration, c'est la machine qui la joue.</p>
+  <p>C'est ce que j'appelle être <strong>auteur orchestrateur</strong> : celui qui conçoit, décide, commande et tranche, sans tenir seul chaque phrase.</p>
+
+  <h2>Le prête-plume se cache</h2>
+  <p>Écrire à plusieurs mains n'a rien de nouveau. Dumas n'a pas écrit seul <em>Les Trois Mousquetaires</em> : Auguste Maquet tenait une bonne part de la plume, et son nom n'est pas sur la couverture. Les mémoires des personnalités sont presque toujours écrits par d'autres. Il suffit de chercher « ghostwriter » sur internet pour voir des centaines d'annonces proposer d'écrire votre livre à votre place.</p>
+  <p>Personne n'y voit un scandale, à une condition tacite : que cela ne se sache pas.</p>
+  <p class="pull">Le prête-plume se cache. Moi, je le dis.</p>
+
+  <h2>Ce qu'on peut m'objecter</h2>
+  <p>Une machine n'est pas un prête-plume comme les autres. Elle a appris à écrire en lisant des millions de textes, dont les auteurs n'ont pas été consultés. Cette question est réelle, et je ne prétends pas la trancher ici. Je dis seulement ce que j'ai fait, comment je l'ai fait, et je vous laisse juge.</p>
+
+  <h2>Ni sans elle, ni sans moi</h2>
+  <p>Une chose est certaine : si l'intelligence artificielle n'existait pas, cet ouvrage n'aurait tout simplement pas vu le jour. Car une histoire n'est pas seulement une histoire. Il y a la mise en forme, la correction, le travail d'édition, et tout cet univers de l'édition qui était pour moi, et reste encore, obscur. Mon <em>nigredo</em>.</p>
+  <p>Mais l'inverse est tout aussi vrai : sans moi, ce livre n'aurait pas vu le jour non plus. La machine n'avait ni cette histoire, ni ces personnages, ni ces questions. Elle sait écrire, mais elle n'avait rien à dire. Ce récit, je l'ai porté : une longue gestation. Elle m'a aidé à le mettre au monde.</p>
+  <p>Ce projet me tient à cœur depuis février 2025. Je l'ai réalisé par mes soins, avec des outils modernes, mais pas seulement. Il vient de plus loin. Pour le comprendre, il faudra lire le livre, et pas seulement le tome 1.</p>
+  <p class="lead" style="margin-top:34px">J'espère que vous aimerez cet univers. Un de plus, qui fait ma richesse d'être.</p>
+  <p style="font-family:Montserrat,sans-serif;font-weight:700;color:var(--rouge);text-transform:uppercase;letter-spacing:.08em;font-size:.85rem">Francis Talistère</p>
+
+  <div class="btns">
+    <a class="btn btn-red" href="chapitre-1.html">Lire le premier chapitre</a>
+    <a class="btn btn-line" href="index.html#acheter">Se procurer le livre</a>
+  </div>
+
+  <p class="foot">© Les Éditions Talistère</p>
+</main>
+</body>
+</html>

@@ -70,7 +70,9 @@ p{margin:0 0 18px;font-size:1.08rem}p em{font-family:Georgia,serif;color:#fff}
 .end{margin-top:52px;padding:30px;background:var(--surf);border:1px solid var(--bord);border-left:3px solid var(--rouge);border-radius:6px;text-align:center}
 .end h2{font-family:Montserrat,sans-serif;font-weight:900;color:#fff;margin:0 0 8px;font-size:1.3rem}
 .end p{color:#bbb;margin:0 0 18px}
-.btn{display:inline-block;font-family:Montserrat,sans-serif;font-weight:700;text-decoration:none;padding:13px 28px;border-radius:4px;color:#8a8a8a;border:1px solid #444;cursor:not-allowed}
+.btn{display:inline-block;font-family:Montserrat,sans-serif;font-weight:700;text-decoration:none;padding:13px 28px;border-radius:4px;transition:.15s}
+.btn-red{background:#E02020;color:#fff}
+.btn-red:hover{background:#EE0000;transform:translateY(-1px)}
 </style>
 </head>
 <body>
@@ -343,7 +345,7 @@ p{margin:0 0 18px;font-size:1.08rem}p em{font-family:Georgia,serif;color:#fff}
   <div class="end">
     <h2>La suite dans le livre</h2>
     <p>Le premier tome de la saga, en sept volumes.</p>
-    <span class="btn" title="Livre en chantier — pas encore disponible">En chantier — bientôt disponible</span>
+    <a class="btn btn-red" href="index.html#acheter">Se procurer le livre</a>
   </div>
 </div>
 </body>

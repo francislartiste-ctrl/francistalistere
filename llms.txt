@@ -1,6 +1,6 @@
 # Le Chemin des Alchimistes — Tome 1
 
-> Site officiel du roman **Le Chemin des Alchimistes — Tome 1 : Jean Petit et les Ombres de la Nuit**, de **Francis Talistère**. On peut y lire le premier chapitre en ligne et écouter sa bande-son. Le roman est en cours d'édition (la vente n'est pas encore ouverte).
+> Site officiel du roman **Le Chemin des Alchimistes — Tome 1 : Jean Petit et les Ombres de la Nuit**, de **Francis Talistère**. On peut y lire le premier chapitre en ligne et écouter sa bande-son. Le roman est disponible en livre broché et en ebook Kindle sur Amazon.
 
 ## Le roman
 
@@ -14,10 +14,15 @@ Roman initiatique et historique en sept tomes. Beaujolais, octobre 1312 : sous l
 
 Chaque chapitre porte son blason. Dans le livre papier, le blason dissimule un QR code qui mène à la bande-son du chapitre sur YouTube. Bande-son du chapitre 1 : « Une lumière dans la nuit » — https://youtu.be/FV2m0iHXmrc
 
+## Méthode d'écriture
+
+Le roman a été écrit par Francis Talistère avec une intelligence artificielle : l'auteur conçoit l'histoire, rédige brouillons et consignes, puis ChatGPT en développe la prose, que l'auteur relit et retravaille. Couverture générée avec Gemini et ChatGPT puis retouchée. Chansons : paroles FrancislArtIste, génération vocale Suno, musique et remasterisation FrancislArtIste via RÉ·HUMA. Détails sur la page L'atelier.
+
 ## Pages
 
 - Accueil (couverture, résumé) : https://francistalistere.com/
 - Chapitre 1 — Les Ombres de Sainte Paule : https://francistalistere.com/chapitre-1.html
+- L'atelier — Comment j'ai écrit ce livre (méthode d'écriture, usage déclaré de l'intelligence artificielle) : https://francistalistere.com/atelier.html
 
 ## Liens officiels
 
